@@ -16,7 +16,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['localhost', 'django-tasks-app-production.up.railway.app']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://django-tasks-app-production.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
